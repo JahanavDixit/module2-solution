@@ -2,6 +2,10 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	font-family: 'Lato' , sans-serif;
+}
 #start
 {
 	font-size: 30px;
@@ -70,7 +74,17 @@
     position: relative;
 	background-color: #808080;
 }
-@media (max-width: 992px) and (min-width: 768px)
+
+@media (min-width: 992px)
+{
+  
+  .p1 .p2 .p3 
+  {
+  	float: left;
+  }
+
+}
+@media  (min-width: 768px) and (max-width: 992px)
 {
 	.p3{
 		padding: 3%;	
@@ -99,13 +113,14 @@
 		width: 95%;
 		padding: 5%;
 		margin: 10px;
+		float: left;
 	}
    .p2
    {
    	width: 95%;
    	padding: 5%;
    	margin: 10px;
-   	clear: left;
+   	float: left;
    }    
     .p3
     {
