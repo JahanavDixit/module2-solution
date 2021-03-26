@@ -1,0 +1,135 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato' , sans-serif;
+}
+#start
+{
+	font-size: 30px;
+}	
+#title1
+{
+	width: 120px;
+	font-weight: bold;
+	background-color: #ffdab9;
+	position: relative;
+	top: -17px;
+	right: -1px;
+	position: absolute;
+	border: 1px solid black;
+}
+.p1
+{
+ width: 30%;
+ float: left;
+ border: 1px solid black;
+ padding: 2%;
+ margin: 1%;	
+ position: relative;
+  background-color: #808080;
+}
+.p2
+{
+	width: 30%;
+    float: left;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 1%;
+    position: relative;
+   background-color: #808080;
+}
+#title2
+{
+	color: white;
+	font-weight: bold;
+	width: 120px;
+	background-color: #800000;
+	position: relative;
+	top: -17px;
+	right: -1px;
+	position: absolute;
+	border: 1px solid black;
+}
+#title3
+{
+	width: 120px;
+	font-weight: bold;
+	background-color: #eeae02;
+	position: relative;
+	top: -17px;
+	right: -1px;
+	position: absolute;
+	border: 1px solid black;
+}
+.p3
+{
+	width: 30%;
+    float: left;
+    margin: 1%;
+    border: 1px solid black;
+    padding: 2%;
+    position: relative;
+	background-color: #808080;
+}
+
+@media (min-width: 992px)
+{
+  
+  .p1 .p2 .p3 
+  {
+  	float: left;
+  }
+
+}
+@media  (min-width: 768px) and (max-width: 992px)
+{
+	.p3{
+		padding: 3%;	
+		clear: left;
+		width: 97%;
+	}
+	.p1
+	{
+		padding: 5%;
+		margin: 3%;
+		width: 42%;
+	}
+	.p2
+	{
+		padding: 5%;
+		margin: 3%;
+		width: 42%;
+	}
+   
+}
+
+@media (max-width: 767px)
+{
+	.p1
+	{
+		width: 95%;
+		padding: 5%;
+		margin: 10px;
+		float: left;
+	}
+   .p2
+   {
+   	width: 95%;
+   	padding: 5%;
+   	margin: 10px;
+   	float: left;
+   }    
+    .p3
+    {
+    	width: 95%;
+    	padding : 5%;
+    	margin: 10px;
+    	clear: right;
+    	clear: left;
+    }
+}
+
+
